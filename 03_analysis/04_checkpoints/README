@@ -1,0 +1,3 @@
+Saved objects reflecting a checkpoint after computationally expensive portions of an analysis
+RDS, pickle files, etc
+Don't upload them to github
