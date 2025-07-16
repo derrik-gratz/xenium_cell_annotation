@@ -1,0 +1,8 @@
+The current best practice for annotating cell types in Xenium data seems to be just using marker genes and manual annotation. 
+There are some papers suggesting the use of single-cell annotation algorithms for spatial data, but that seems sub-optimal
+given the difference in number of genes and transcripts with spatial data.
+This repo will explore some options for Xenium cell annotation.
+
+The first hypothesis is to use single-cell data, but downsample it to just the genes found in the spatial panel,
+then use a method like cellTypist to annotate the cells. 10x provides a matched single-cell and spatial dataset that
+can be used to benchmark these approaches. 
